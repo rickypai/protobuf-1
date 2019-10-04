@@ -7,6 +7,8 @@ load("@rules_python//python:defs.bzl", "py_library")
 
 licenses(["notice"])
 
+exports_files(["third_party/six.BUILD", "third_party/zlib.BUILD"])
+
 exports_files(["LICENSE"])
 
 ################################################################################
